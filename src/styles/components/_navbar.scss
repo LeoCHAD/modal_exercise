@@ -1,0 +1,13 @@
+@use '../util' as u;
+@use '../globals' as g;
+
+.navbar{
+  width: 100vw;
+  margin:0;
+  text-align: center;
+  min-height: 2rem;
+  background-color: #222;
+  &__title{
+    font-size: min(3rem, 8vw);
+  }
+}
