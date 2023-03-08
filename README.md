@@ -1,6 +1,6 @@
 ## __Ejercicio de manejo de ventana Modal por promesas en React.js con javascript__
 
-La idea es simple, el propósito del ejecicio es imitar el flujo de ejecucipon del método ``"window.confirm()"``, invocamos un modal con las opciones __Aceptar__ y __cancelar__, y el scope en donde le invocamos no continua ejecutandose hasta que el usuario tome una decición, para lograr esto empleamos ``promesas``.
+La idea es simple, el propósito del ejercicio es imitar el flujo de ejecución del método ``"window.confirm()"``, invocamos un modal con las opciones __Aceptar__ y __cancelar__, y el scope en donde le invocamos no continua ejecutándose hasta que el usuario tome una decisión, para lograr esto empleamos ``promesas``.
 
 ~~~javascript
 new Promise()
@@ -42,7 +42,7 @@ El enfoque que tomó esta segunda solución fue usar un __Custom Hook__ para des
 <hr>
 
 ### __Primera solución__
-Se me ocurrión extraer el callback __resolve__ de la promesa en un estado y ejecutarlo desde un scope distinto, de esa forma la promesa se podrá resolver cuando lo concideremos necesario:
+Se me ocurrión extraer el callback __resolve__ de la promesa en un estado y ejecutarlo desde un scope distinto, de esa forma la promesa se podrá resolver cuando lo consideremos necesario:
 
 ~~~javascript
   function toResolve(){
@@ -64,3 +64,26 @@ La idea es establecer un dato __booleano__ que represente la elección del usuar
 ~~~
 
 El enfoque que tomó el presente ejercicio fue usar un __Custom Hook__ para desacoplar esta lógica de cualquier componente, posiblemente esta estructura esté abierta a mejora, pero es un comienzo :)
+`
+## __instalación__
+Este pequeño proyecto fue creado con __vite__ y para la instalación de la dependencias se empleó __pnpm__ razón por la cual hemos de ejecutar el siguiente comando para ello.
+~~~bash
+pnpm install
+~~~
+### __ejecución__
+para ejecutar tenemos los comandos que nos brinda vite. Para levantar un servidor de desarrollo:
+~~~bash
+pnpm dev
+~~~
+o
+~~~bash
+npm run dev
+~~~
+para constrcción de la versión de desarrollo use:
+~~~bash
+npm run build
+~~~
+o
+~~~bash
+pnpm build
+~~~

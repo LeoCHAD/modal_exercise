@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Modal loot={lootModal} confirmM={confirmModal} title="Aviso">
+      <Modal  loot={lootModal} confirmM={confirmModal} title="Aviso">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, in enim, accusamus sunt provident exercitationem ad qui, assumenda ipsam voluptatibus iusto vitae cum harum nam adipisci vel optio placeat earum! Voluptates, praesentium. Explicabo aperiam molestiae alias dolorem minus cumque quo voluptate iure officiis rem inventore asperiores praesentium tempora modi fugiat consectetur illo adipisci aspernatur, dicta enim, ipsam repudiandae qui magni at? Magnam, officiis ex hic voluptatem quae soluta tempora consequatur rem eligendi. Consectetur mollitia deserunt, recusandae quas cum accusantium reiciendis nostrum dolorum tempora architecto aliquid veritatis distinctio, rerum expedita. Itaque fugit fuga, assumenda error cum veritatis delectus consequuntur sint porro?.... Está por aceptar los términos
       </Modal>
       <NavBar />

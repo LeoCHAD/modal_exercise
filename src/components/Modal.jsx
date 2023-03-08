@@ -1,3 +1,10 @@
+import React from 'react'
+/**
+ * Modal sencillo que recibe como props el la configuración (loot),
+ *  el titulo(title), el cuerpo del modal (children) y la función para responder
+ * la confirmación (confirmM) 
+ * @param {{loot: {[string]:any}, title: string, children: any, confirmM: (choice: boolean)=>void}} props 
+ */
 export const Modal = ({ loot, title, children, confirmM }) => {
   return (
     <>
